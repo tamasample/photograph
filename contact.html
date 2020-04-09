@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vsz5ubd.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css" type="text/css" media="all" />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/amaginglandscape/sample/master/fabicon.ico">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/amaginglandscape/sample/master/apple-touch-icon180.png" sizes="180x180">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+        <header class="header">
+            <div class="header-right"  ontouchstart="">
+                <a href="https://amaginglandscape.github.io/sample/"><img class="header-logo" src="https://raw.githubusercontent.com/amaginglandscape/sample/master/tamaki-logo-white.png" alt="ロゴ"></a>
+                <ul>
+                    <li class="nav-item"><a href="https://amaginglandscape.github.io/sample/about.html">ABOUT</a></li>
+                    <li class="nav-item"><a href="https://amaginglandscape.github.io/sample/garelly.html">GARELLY</a></li>
+                    <li class="nav-item"><a href="https://amaginglandscape.github.io/sample/contact.html">CONTACT</a></li>
+                    <li class="nav-item"><a href="#"><i class="fab fa-instagram faa-float animated"></i></a></li>
+                    <li class="nav-item"><a href="#"><i class="fab fa-twitter faa-float animated"></i></a></li>
+                    <li class="nav-item"><a href="#"><i class="fab fa-pinterest-p faa-float animated"></i></a></li>
+
+                </ul>
+            </div>
+
+            <nav class="NavMenu" ontouchstart="">
+                <ul>
+                    <li><a href="https://amaginglandscape.github.io/sample/index.html">HOME</a></li>
+                    <li><a href="https://amaginglandscape.github.io/sample/about.html">ABOUT</a></li>
+                    <li><a href="https://amaginglandscape.github.io/sample/garelly.html">GARELLY</a></li>
+                    <li><a href="https://amaginglandscape.github.io/sample/contact.html">CONTACT</a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a><a href="#"><span class="fab fa-twitter"></span></a><a href="#"><span class="fab fa-pinterest-p "></span></a></li>
+                </ul>
+            </nav>
+            <!-- ハンバーガーメニュー部分 --> 
+            <div class="Toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>MENU</p>
+            </div>
+
+        </header>
+    <div class="contact">
+       <h1 class="contact-title">CONTACT</h1>
+        <p class="contact-title">仕事のご依頼、ご質問などございましたら<br>下記よりお気軽にお問い合わせください。</p>
+       
+       <div class="contact-mask">
+        <form class="contact-form">
+           <p class="contact-text">お名前</p>
+            <input type="text" name="name" placeholder="NAME">
+            <p class="contact-text">メールアドレス</p>
+            <input type="text" name="Email" placeholder="E-MAIL">
+            <p class="contact-text">お問い合わせ内容</p>
+            <textarea name="message" placeholder="MESSAGE"></textarea>
+            <p class="contact-text">※すべて必須項目です。</p>
+            <input id="btn" type="submit" value="SEND">
+            
+        </form>
+           </div>
+        </div>
+     <footer>
+        <p>©2019 TAMAKI TANIMURA PHOTOGRAPHY</p>
+    </footer>
+    <script>
+        $(function() {
+            $('.Toggle').click(function() {
+                $(this).toggleClass('active');
+
+                if ($(this).hasClass('active')) {
+                    $('.NavMenu').addClass('active');　 //クラスを付与
+                } else {
+                    $('.NavMenu').removeClass('active'); //クラスを外す
+                }
+            });
+        });
+        
+        const btn = document.getElementById("btn");
+        btn.addEventListener('click' , () => {
+        alert('サンプルページの為、送信できません！');
+        });
+    </script>
+</body>
+
+</html>
