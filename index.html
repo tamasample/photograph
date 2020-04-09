@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>サンプルページ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vsz5ubd.css">
+    <link href="https://fonts.googleapis.com/css?family=Kite+One|Open+Sans:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css"
+        type="text/css" media="all" />
+        <link rel="shortcut icon" href="img/fabi.png">
+        <link rel="shortcut icon" href="img/fabicon.ico">
+        <link rel="apple-touch-icon" href="img/apple-touch-icon180.png" sizes="180x180">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/vegas.min.js"></script>
+</head>
+
+<body>
+    <div id="loader-wrap">
+        <div id="loading">
+            <img src="img/top_loading02.svg" alt="">
+        </div>
+    </div>
+    <div class="wrap">
+        <header class="header">
+            <div class="header-right" ontouchstart="">
+                <a href="index.html"><img class="header-logo" src="img/tamaki-logo-white.png" alt="ロゴ"></a>
+                <ul>
+                    <li class="nav-item"><a href="about.html">ABOUT</a></li>
+                    <li class="nav-item"><a href="garelly.html">GARELLY</a></li>
+                    <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+                    <li class="nav-item"><a href="#"><i class="fab fa-instagram faa-float animated"></i></a></li>
+                    <li class="nav-item"><a href="#"><i class="fab fa-twitter faa-float animated"></i></a></li>
+                    <li class="nav-item"><a href="#"><i class="fab fa-pinterest-p faa-float animated"></i></a></li>
+
+                </ul>
+            </div>
+
+            <nav class="NavMenu" ontouchstart="">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="garelly.html">GARELLY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a><a href="#"><span
+                                class="fab fa-twitter"></span></a><a href="#"><span
+                                class="fab fa-pinterest-p "></span></a></li>
+                </ul>
+            </nav>
+            <!-- ハンバーガーメニュー部分 -->
+            <div class="Toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>MENU</p>
+            </div>
+
+        </header>
+
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="main-message">
+                    <h1>May The Beautiful Nature <br class="mobile-top">Bring You <br class="pc-top">New Energy.</h1>
+                    <h1>May The Amazing Landscape <br>Restore You.</h1>
+                    <div class="next"><a class="button animsition-link" href="garelly.html"
+                            data-animsition-out-class="fade-out-right"><i
+                                class="fa fa-angle-double-right faa-passing animated"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="footer-copy">©2019 TAMAKI TANIMURA PHOTOGRAPHY</p>
+        </footer>
+    </div>
+
+    <script>
+        $('body').vegas({
+            overlay: true,
+            transition: 'slideRight2',
+            transitionDuration: 700,
+            delay: 5000,
+            slides: [{
+                    src: 'img/background01.jpg',
+                    valign: 'top',
+                },
+                {
+                    src: 'img/background02.jpg',
+                    valign: 'bottom',
+                },
+                {
+                    src: 'img/background03.jpg',
+                    valign: 'bottom',
+                },
+                {
+                    src: 'img/background04.jpg',
+                    valign: 'bottom',
+                    align: 'right',
+                },
+                {
+                    src: 'img/background05.jpg',
+                    valign: 'top',
+                },
+
+            ],
+
+        });
+    </script>
+    <script src="js/main.js"> </script>
+</body>
+
+</html>
