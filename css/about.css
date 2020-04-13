@@ -231,6 +231,7 @@ footer p{
     background-color: transparent;
     color: rgba(255,255,255,0.6);
     cursor: pointer;
+    -webkit-appearance: none;
 }
 .contact-form input:hover,
 .contact-form input:active{
