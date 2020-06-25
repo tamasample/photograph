@@ -488,14 +488,14 @@ p.contact-title {
 }
 #loading object{
     position:fixed;
+    width: 548px;
+    height: 164px;
     top:50%;
     left: 50%;
-    text-align: center;
     margin: auto;
     z-index: 100;
-    text-align: center;
-    margin-left:-300px;
-    margin-top:-100px;
+    margin-left: -274px;
+    margin-top: -82px;
 }
 @media (max-width: 767px) and (min-width: 0px){
 #loading object{
