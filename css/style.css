@@ -60,16 +60,12 @@ header {
     display: none;
 }
 
-.contaimer-wrapper {
-    height: 78vh;
-}
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 78vh;
+    height: 78%;
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -415,7 +411,7 @@ footer p {
     }
 
     .container {
-        height: 80vh;
+        height: 80%;
     }
 
     .main-message {
@@ -453,7 +449,7 @@ footer p {
 
 
     .container {
-        height: 90vh;
+        height: 90%;
     }
 
     .main-message {
