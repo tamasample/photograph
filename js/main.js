@@ -7,22 +7,17 @@ $(function () {
 });
 
 $(window).on(`load`, function () { //全ての読み込みが完了したら実行
-  $('#loader-wrap').delay(900).fadeOut(600);
-  $('#loading').delay(800).fadeOut(500);
+  $('#loader-wrap').delay(1500).fadeOut(400);
+  $('#loading').delay(1500).fadeOut(300);
   $('#wrap').css('display', 'block');
 });
 
 
 //5秒たったら強制的にロード画面を非表示
 $(function () {
-  setTimeout('stopload()', 5000);
+  setTimeout('stopload()', 8000);
 });
 
-function stopload() {
-  $('#wrap').css('display', 'block');
-  $('#loader-wrap').delay(900).fadeOut(800);
-  $('#loading').delay(600).fadeOut(300);
-}
 
 
 //ハンバーガーメニュー
