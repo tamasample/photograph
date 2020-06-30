@@ -406,12 +406,12 @@ footer p {
     }
 
     .header-logo {
-        width: 78vh;
+        width: 90%;
         text-align: center !important;
     }
 
     .container {
-        height: 80%;
+        height: 78vh;
     }
 
     .main-message {
