@@ -324,16 +324,16 @@ p.contact-title {
     }
 
     nav.NavMenu ul li{
-        display: block; /*クリックできる領域を広げる*/
+        display: block; 
         color: #FFF;
         padding: 1em 0;
         text-decoration: none;
     }
-    /*トグルボタンが押されたときに付与するクラス*/
+    
     nav.NavMenu.active{
         transform: translateY(0%);
     }
-    /*トグルボタンのスタイルを指定*/
+    
     .Toggle {
         display: block;
         background-color: #181818;
