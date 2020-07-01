@@ -5,12 +5,16 @@
 }
 html{
 -webkit-text-size-adjust: 100%;
+    width:100%;
+    height:100%;
 }
 body{
     background-color: #181818;
     margin:auto 0;
     padding:auto 0;
     font-family: sans-serif;
+     width:100%;
+    height:100%;
 }
 header{
     height:80px;
@@ -55,9 +59,10 @@ header{
 }
 /*-----------------------------------------------ABOUTのページ*/
 .profile-wrapper{
-    height: 82vh;
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .profile{
     text-align: center;
@@ -107,17 +112,22 @@ header{
     display:none;
 }
 
-footer{
+footer {
     color: #fff;
     font-size: 10px;
-    margin-top: auto;
-
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #181818;
 }
 
-footer p{
+footer p {
     font-family: sans-serif;
     text-align: center;
 }
+
 
 /*------------------------------------------------GARELLYのページ*/
 .container{
@@ -398,7 +408,7 @@ p.contact-title {
     }
     /*-----------------------------------------------ABOUTのページ*/
     .profile-wrapper{
-        height: 85vh;
+        height: 85%;
     }
     .profile img{
         width: 120px;
@@ -447,7 +457,7 @@ p.contact-title {
 
     /*---------------------------------------ABOUTのページ*/
     .profile-wrapper{
-        height: 90vh;
+        height: 90%;
     }
     .profile{
         margin-top: 100px;
