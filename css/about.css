@@ -66,8 +66,6 @@ header{
 }
 .profile{
     text-align: center;
-    margin-top: 60px;
-    flex: 1;
 }
 .profile img{
     border-radius: 50%;
@@ -459,9 +457,7 @@ p.contact-title {
     .profile-wrapper{
         height: 90%;
     }
-    .profile{
-        margin-top: 100px;
-    }
+    
     .mobile-top{
     display:none;
 }
