@@ -7,6 +7,11 @@
     box-sizing: border-box
 }
 
+html{
+    width: 100%;
+    height: 100%;  
+}
+
 body {
     /*iPhoneのSafariでで横向きにした際に一部文字が拡大されてしまうため*/
     -webkit-text-size-adjust: 100%;
@@ -15,7 +20,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 header {
     height: 80px;
@@ -65,7 +69,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 78vh;
+    height: 78%;
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -142,7 +146,7 @@ footer p {
     }
 
     .container {
-        height: 87vh;
+        height: 87%;
     }
 
     .main-message {
@@ -411,7 +415,7 @@ footer p {
     }
 
     .container {
-        height: 78vh;
+        height: 78%;
     }
 
     .main-message {
@@ -449,7 +453,7 @@ footer p {
 
 
     .container {
-        height: 90vh;
+        height: 90%;
     }
 
     .main-message {
