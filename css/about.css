@@ -128,14 +128,17 @@ footer p {
 
 
 /*------------------------------------------------GARELLYのページ*/
-.container{
+.wrap{
+    width: 100%;
+}
 
+.container {
+    width: 96%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 45px 10px 0;
+    margin: 40px auto;
     height: 1340px;
-    
 }
 
 .item.horizonal{
@@ -428,7 +431,8 @@ p.contact-title {
     /*---------------------------------------------GARELLYのページ*/   
     .container{
         display:block;
-        height: 100%;
+        height: auto;
+        width:96%;
     }
     .item.landscape ,
     .item.horizonal{
