@@ -406,7 +406,11 @@ p.contact-title {
     }
     /*-----------------------------------------------ABOUTのページ*/
     .profile-wrapper{
-        height: 85%;
+        height: 82%;
+    }
+    
+    .switch{
+        height: auto;
     }
     .profile img{
         width: 120px;
@@ -455,7 +459,7 @@ p.contact-title {
 
     /*---------------------------------------ABOUTのページ*/
     .profile-wrapper{
-        height: 90%;
+        height: 86%;
     }
     
     .mobile-top{
