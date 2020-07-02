@@ -31,8 +31,8 @@ $(function () {
 $(function () {
   $(".en-button").on("click", function () {
       $(this).next().slideToggle();
-  });
-
+      $('html,body').toggleClass('switch');
+  }); 
 });
 
 //CONTACT
